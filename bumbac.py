@@ -5,7 +5,7 @@ def bumbac(num):
         raise ValueError()
     if num % 15 == 0:
         return "bumbac"
-    if num % 3 == 0:
+    if num % 4 == 0:
         return "bum"
     if num % 5 == 0:
         return "bac"
