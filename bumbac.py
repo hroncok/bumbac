@@ -1,8 +1,6 @@
 import pytest
 
 def bumbac(num):
-    if num < 0:
-        raise ValueError()
     if num % 15 == 0:
         return "bumbac"
     if num % 3 == 0:
